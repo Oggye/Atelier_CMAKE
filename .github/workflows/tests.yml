@@ -58,7 +58,7 @@ jobs:
           ./src/calculator mul 5 5
   Test_Sub:
     runs-on: ubuntu-latest
-    needs:Compilation
+    needs: Compilation
     steps:
       - name: Test fonction sub
         run: |
